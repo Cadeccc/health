@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,11 +23,7 @@
         }
 
         .sidebar {
-            width: 250px;
             height: 100vh;
-            position: fixed;
-            top: 0;
-            left: 0;
             background-color: #f8f9fa;
             padding: 20px;
         }
@@ -32,7 +31,8 @@
         .content {
             flex-grow: 1;
             padding: 20px;
-            height: 100vh;
+            max-height: 100vh;
+            overflow-y: scroll;
         }
 
 
@@ -46,10 +46,6 @@
             color: #333;
         }
 
-        /* .sidebar-nav .nav-link.active {
-            background-color: red;
-        } */
-
         .list-group-item {
             border: none;
             font-size: large;
@@ -59,9 +55,12 @@
             color: red;
             font-weight: bold;
         }
-        .active {
-            background-color: beige; 
-            border-radius: 5px; 
+
+        .active,
+        .list-group-item.active {
+            background-color: beige;
+            border-radius: 5px;
+            color: black !important;
         }
     </style>
 </head>

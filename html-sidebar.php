@@ -5,7 +5,7 @@
             <i class="bi bi-house "></i>
             <a href="index_.php" class="nav-link fw-bold" aria-current="page">首頁</a>
         </li>
-        <li class="nav-item d-flex align-items-center fs-5 active">
+        <li class="nav-item d-flex align-items-center fs-5">
             <i class="bi bi-person-circle"></i>
             <a href="accountList.php" class="nav-link fw-bold">
                 會員管理
@@ -20,24 +20,24 @@
             </div>
             <div class="collapse" id="couponMenu">
                 <ul class="list-group ">
-                    <a class="list-group-item bg-light fs-6" href="#">優惠卷內容管理</a>
-                    <a class="list-group-item bg-light fs-6" href="#">會員優惠卷管理</a>
+                    <a class="list-group-item bg-light fs-6" href="test01.php">優惠卷內容管理</a>
+                    <a class="list-group-item bg-light fs-6" href="test02.php">會員優惠卷管理</a>
                 </ul>
             </div>
         </li>
         <li class="nav-item d-flex align-items-center fs-5">
             <i class="bi bi-shop"></i>
-            <a href="#" class="nav-link fw-bold">商品管理</a>
+            <a href="test03.php" class="nav-link fw-bold">商品管理</a>
         </li>
         <li class="nav-item d-flex align-items-center fs-5">
             <i class="bi bi-person-standing"></i>
-            <a href="#" class="nav-link fw-bold">教練管理</a>
+            <a href="test04.php" class="nav-link fw-bold">教練管理</a>
         </li>
         <li class="nav-item d-flex align-items-center fs-5">
             <i class="bi bi-file-text"></i>
-            <a href="#" class="nav-link fw-bold">文章管理</a>
+            <a href="test05.php" class="nav-link fw-bold">文章管理</a>
         </li>
-        <li class="nav-item d-flex justify-content-end fs-5">
+        <li class="d-flex justify-content-end fs-5">
             <a href="login.php" class="nav-link fw-bold">登入</a>
         </li>
     </ul>

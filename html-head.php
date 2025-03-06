@@ -28,14 +28,6 @@
             padding: 20px;
         }
 
-        .content {
-            flex-grow: 1;
-            padding: 20px;
-            max-height: 100vh;
-            overflow-y: scroll;
-        }
-
-
         .sidebar-brand {
             text-align: center;
             margin-bottom: 20px;
@@ -48,7 +40,6 @@
 
         .list-group-item {
             border: none;
-            font-size: large;
         }
 
         .form-text {
@@ -58,9 +49,16 @@
 
         .active,
         .list-group-item.active {
-            background-color: beige;
-            border-radius: 5px;
+            background-color: beige !important;
+            border-radius: 10px;
             color: black !important;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            max-height: 100vh;
+            overflow-y: scroll;
         }
     </style>
 </head>

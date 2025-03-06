@@ -14,7 +14,7 @@
                 $(this).closest(".nav-item").addClass("active"); // 也加到父級 nav-item，避免樣式問題
                 $(this).closest(".collapse").addClass("show"); 
                 if ($(this).closest(".collapse").length) {
-                    $(this).closest(".collapse").prev().addClass("active");
+                    $(this).closest(".nav-item").removeClass("active");
                 }
             }
         });

@@ -29,13 +29,17 @@
             <i class="bi bi-shop"></i>
             <a href="test03.php" class="nav-link fw-bold">商品管理</a>
         </li>
+        <li class="nav-item d-flex align-items-center">
+            <i class="fa-solid fa-dumbbell fs-6"></i>
+            <a href="test04.php" class="nav-link fw-bold fs-5">課程管理</a>
+        </li>
         <li class="nav-item d-flex align-items-center fs-5">
             <i class="bi bi-person-standing"></i>
-            <a href="test04.php" class="nav-link fw-bold">教練管理</a>
+            <a href="test05.php" class="nav-link fw-bold">教練管理</a>
         </li>
         <li class="nav-item d-flex align-items-center fs-5">
             <i class="bi bi-file-text"></i>
-            <a href="test05.php" class="nav-link fw-bold">文章管理</a>
+            <a href="test06.php" class="nav-link fw-bold">文章管理</a>
         </li>
         <li class="d-flex justify-content-end fs-5">
             <a href="login.php" class="nav-link fw-bold">登入</a>

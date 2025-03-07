@@ -15,13 +15,13 @@
             <div class="d-flex align-items-center fs-5">
                 <i class="bi bi-handbag"></i>
                 <a class="nav-link fw-bold" data-bs-toggle="collapse" href="#couponMenu" role="button" aria-expanded="false">
-                    優惠卷管理
+                    優惠券管理
                 </a>
             </div>
             <div class="collapse" id="couponMenu">
                 <ul class="list-group ">
-                    <a class="list-group-item bg-light fs-6" href="test01.php">優惠卷內容管理</a>
-                    <a class="list-group-item bg-light fs-6" href="test02.php">會員優惠卷管理</a>
+                    <a class="list-group-item bg-light fs-6" href="test01.php">優惠券內容管理</a>
+                    <a class="list-group-item bg-light fs-6" href="test02.php">會員優惠券管理</a>
                 </ul>
             </div>
         </li>

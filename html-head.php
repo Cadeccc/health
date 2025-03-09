@@ -23,7 +23,6 @@
         }
 
         .sidebar {
-            height: 100vh;
             background-color: #f8f9fa;
             padding: 20px;
         }
@@ -42,7 +41,7 @@
             border: none;
         }
 
-        .active,
+        .nav-item.active,
         .list-group-item.active {
             background-color: #d0e4ff !important;
             border-radius: 10px;

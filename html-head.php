@@ -42,23 +42,23 @@
             border: none;
         }
 
-        .form-text {
-            color: red;
-            font-weight: bold;
-        }
-
         .active,
         .list-group-item.active {
-            background-color: beige !important;
+            background-color: #d0e4ff !important;
             border-radius: 10px;
             color: black !important;
+            padding-left: 5px !important;
+            margin: 5px !important;
         }
 
         .content {
             flex-grow: 1;
             padding: 20px;
-            max-height: 100vh;
-            overflow-y: scroll;
+        }
+
+        .form-text {
+            color: red;
+            font-weight: bold;
         }
     </style>
 </head>

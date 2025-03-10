@@ -1,7 +1,7 @@
-<aside class="sidebar">
+<aside class="sidebar col-2">
     <h4 class="sidebar-brand">海優斯後台管理</h4>
     <ul class="nav flex-column sidebar-nav ">
-        <li class="nav-item d-flex align-items-center fs-5">
+        <li class="nav-item d-flex align-items-center fs-5 <?= $pageName == 'home' ? 'active' : '' ?>">
             <i class="bi bi-house "></i>
             <a href="index_.php" class="nav-link fw-bold" aria-current="page">
                 <span>首頁</span>
